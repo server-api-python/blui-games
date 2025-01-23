@@ -4,8 +4,12 @@ app = Flask(__name__)
 
 # Variáveis do servidor (em um banco de dados ou em memória)
 variables = {
-    'Player1': '0',
-    'Player2': '0'
+    'P1': '0',
+    'P2': '0',
+    'p1': '0',
+    'p2': '0',
+    'jogar': '0',
+    'cenario': '0'
 }
 
 # Rota para enviar as variáveis (GET)
